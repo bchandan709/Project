@@ -375,7 +375,6 @@ class project:
 
 
         b.mainloop()
-#class object creation
 obj=project()
-#calling method in project class using 'obj' object
+
 obj.WindowFunc()
