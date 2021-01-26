@@ -1,19 +1,17 @@
-# Project
 
-import tkinter as tk
-from tkinter import ttk
+
 
 
 class project:
+    def __init__(self):
+        
+        import tkinter as tk
+        from tkinter import ttk
 
     def WindowFunc(self):
-        #an=acc. number
         an=[]
-        #ap=acc. password
         ap=[]
-        #ab=acc. balance
         ab=[]
-        #calculations list cu & au
         cu=[]
         au=[]
 
@@ -376,5 +374,4 @@ class project:
 
         b.mainloop()
 obj=project()
-
 obj.WindowFunc()
